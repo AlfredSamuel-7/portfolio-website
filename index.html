@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfred Samuel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="glass navbar">
+  <h1 class="logo">Alfred Samuel</h1>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="intro">
+  <div id="particles-js"></div> <!-- particle animation -->
+  <div class="intro-content">
+    <h1>Hi, I'm Alfred Samuel</h1>
+    <p>I Design & Build Solutions That Work.</p>
+  </div>
+</section>
+
+<!-- Load Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 100 },   // number of particles
+    "size": { "value": 2 },       // small star size
+    "color": { "value": "#ffffff" }, 
+    "opacity": { "value": 0.8 },
+
+    // Particle motion
+    "move": { 
+      "enable": true,
+      "speed": 0.6,              // slow & smooth
+      "direction": "top",        // move upwards
+      "straight": false,         // little random drift
+      "out_mode": "out"          // disappear when out of screen
+    },
+
+    "line_linked": { "enable": false } // disable lines
+  },
+  "interactivity": { "events": { "onhover": { "enable": false } } }
+});
+</script>
+
+
+
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Hi, I'm Alfred Samuel</h1>
+    <p class="hero-subtitle">Passionate Computer Science & Design Undergraduate | AI & Full-Stack Developer</p>
+    <p class="hero-tagline">I build intelligent, interactive, and beautiful digital experiences.</p>
+    <a href="#projects" class="hero-button">View My Work</a>
+  </div>
+</section>
+
+<section id="about" class="glass about-section">
+  <div class="about-content">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I'm Alfred Samuel — a passionate and versatile Computer Science and Design undergraduate
+      specializing in Artificial Intelligence and Full-Stack Development.
+      I enjoy building end-to-end web applications, intelligent systems,
+      and crafting delightful UI/UX designs. I’m always driven to learn, solve problems,
+      and bring ideas to life through code and creativity.
+    </p>
+    <ul class="about-quickinfo">
+      <li><strong>Email:</strong> <a href="mailto:alfredsamd7@gmail.com">alfredsamd7@gmail.com</a></li>
+      <li><strong>Phone:</strong> 9444922150</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alfred-samuel-aa0a55249/" target="_blank">View Profile</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/AlfredSamuel-7" target="_blank">github.com/AlfredSamuel-7</a></li>
+      <li><strong>Location:</strong> Chennai, India</li>
+    </ul>
+  </div>
+</section>
+<section id="skills" class="glass skills-section">
+  <div class="skills-content">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h3>Frontend Development</h3>
+        <ul>
+          <li>HTML5, CSS3, JavaScript (ES6+), TypeScript</li>
+          <li>React.js, Next.js</li>
+          <li>Responsive Web Design & CSS Modules</li>
+          <li>UI/UX Prototyping (Figma, Wireframing)</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Backend Development</h3>
+        <ul>
+          <li>Node.js, Express.js</li>
+          <li>Spring Boot</li>
+          <li>REST API Development & Integration</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Databases</h3>
+        <ul>
+          <li>MySQL, MongoDB, Firebase (Firestore & Realtime DB)</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>AI & Automation</h3>
+        <ul>
+          <li>Python, OpenAI API, LangChain</li>
+          <li><strong>Prompt Engineering</strong> — Writing highly effective prompts for AI tools</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Version Control</h3>
+        <ul>
+          <li>Git, GitHub</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Creative Problem-Solving</li>
+          <li>Rapid Learning & Adaptability</li>
+          <li>Clear Technical Communication</li>
+          <li>Team Collaboration</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="glass experience-section">
+  <div class="experience-content">
+    <h2 class="section-title">Experience</h2>
+
+    <!-- Freelance Project -->
+    <div class="experience-item">
+      <h3>Freelance Web Developer — Dcode Branding Solutions</h3>
+      <span class="date">Feb 2023 – Present</span>
+      <ul>
+        <li>Designed and developed a responsive full-stack business website for a digital marketing & consulting startup — <a href="https://dcodebranding.com" target="_blank" class="link-highlight">dcodebranding.com</a>.</li>
+        <li>Implemented dynamic service pages, inquiry forms, and SEO optimization for better online reach.</li>
+        <li>Integrated Firebase for secure data storage and automated email notifications.</li>
+      </ul>
+    </div>
+
+    <!-- Academic Projects -->
+    <div class="experience-item">
+      <h3>Selected Academic Projects — Vel Tech R&D Institute, Chennai</h3>
+      <span class="date">Feb 2023 – Present</span>
+      <ul>
+        <li>Content Streaming Platform — Built with Firebase authentication, video hosting, and category-based browsing.</li>
+        <li>ML-based Construction Cost Estimator — Generated 3D floor plans with predictive cost analysis.</li>
+        <li>Progressive Web Apps — Converted web apps into PWAs using service workers & manifest.</li>
+        <li>Responsive Clinic Dashboard — Created with HTML, CSS, Bootstrap for patient management.</li>
+        <li>OpenAI Medical Chatbot — For symptom analysis & medical information retrieval.</li>
+        <li>Haptic Feedback Navigation System — Wearable assistive tech for visually impaired users.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="education-section">
+  <h2 class="section-title">Education</h2>
+  
+  <div class="timeline">
+    <!-- Left Card -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <h3>Ebenezer Matriculation Higher Secondary School</h3>
+        <p class="subtext">Kindergarten – 9th Grade</p>
+        <p class="date">2008 – 2019</p>
+        <p>Built strong academic foundation and participated in various extracurricular activities.</p>
+      </div>
+    </div>
+
+    <!-- Right Card -->
+    <div class="timeline-item right">
+      <div class="timeline-card">
+        <h3>Ebenezer Matriculation Higher Secondary School</h3>
+        <p class="subtext">9th – 12th Grade</p>
+        <p class="date">2019 – 2022</p>
+        <p>Focused on higher secondary studies with science specialization.</p>
+      </div>
+    </div>
+
+    <!-- Left Card -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <h3>Vel Tech University, Chennai</h3>
+        <p class="subtext">B.Tech – Computer Science and Design (AI Specialization)</p>
+        <p class="date">2022 – Present</p>
+        <p>Pursuing undergraduate degree with a focus on Artificial Intelligence and modern software development practices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="certifications" class="glass certifications-section">
+  <div class="certifications-content">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cert-item">
+      <h3>IITM Pravartak Foundation & Intellipaat, Chennai</h3>
+      <p class="subtext">Advanced Certification in Data Science and Artificial Intelligence</p>
+      <p class="desc">Focused on data preprocessing, supervised & unsupervised learning, model evaluation, and end-to-end AI project development.</p>
+    </div>
+
+    <div class="cert-item">
+      <h3>Deep Learning – NPTEL </h3>
+      <p class="desc">Learned core concepts of neural networks, CNNs, RNNs, optimization techniques, and implementation using Python & TensorFlow.</p>
+    </div>
+
+    <div class="cert-item">
+      <h3>Incubation and Entrepreneurship – NPTEL </h3>
+      <p class="desc">Covered the fundamentals of startups, product-market fit, business models, fundraising, and innovation strategies for launching scalable ventures.</p>
+    </div>
+  </div>
+</section>
+
+<section id="languages" class="glass languages-section">
+  <div class="languages-content">
+    <h2 class="section-title">Languages</h2>
+    <ul class="language-list">
+      <li>Tamil – Native</li>
+      <li>English – Fluent</li>
+      <li>Japanese – Beginner</li>
+    </ul>
+  </div>
+</section>
+<section id="projects" class="glass projects-section"> <div class="projects-content"> <h2 class="section-title">Projects</h2> 
+  <div class="projects-grid">
+    <div class="project-card">
+    <h3>Digital Marketing Website</h3>
+    <p>Built a full-stack business website for a digital agency with admin dashboard and inquiry forms.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Construction Cost Estimator</h3>
+    <p>Used ML to predict costs and generate 3D floor plans; integrated with Flask and Firebase.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Medical Chatbot</h3>
+    <p>AI-powered chatbot using OpenAI API to assess symptoms and suggest OTC medications.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Streaming Platform</h3>
+    <p>Developed a PWA with auth, watchlist, upload/search using HTML, JS, and Firebase.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Appointment Booking App</h3>
+    <p>Built using Flutter (frontend) + Laravel (backend) with MariaDB for clinics and services.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>My Family App</h3>
+    <p>Personal web app for event tracking and shared memories with a clean role-based UI.</p>
+  </div>
+
+</div>
+</section>
+<section id="contact" class="glass contact-section">
+  <div class="contact-content">
+    <h2 class="section-title">Contact</h2>
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:alfredsamd7@gmail.com">alfredsamd7@gmail.com</a></li>
+      <li><strong>Portfolio:</strong> <a href="https://dcodebranding.com/" target="_blank">dcodebranding.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+919444922150">+91 94449 22150</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alfred-samuel-aa0a55249/" target="_blank">linkedin.com/in/alfred-samuel-aa0a55249</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/AlfredSamuel-7" target="_blank">github.com/AlfredSamuel-7</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Outro Section -->
+<section id="outro" class="outro-section">
+  <canvas id="outro-particles"></canvas>
+  <div class="outro-text">
+    <h1>Thanks for Visiting </h1>
+    <p>Crafted with Glassmorphism & Modern UI</p>
+  </div>
+</section>
+
+
+<!-- Place JS here -->
+<script>
+  const canvas = document.getElementById("outro-particles");
+  const ctx = canvas.getContext("2d");
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  let particles = [];
+  for (let i = 0; i < 120; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 2,
+      speed: Math.random() * 0.6 + 0.2
+    });
+  }
+
+  function animateParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "white";
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fill();
+      p.y -= p.speed;
+      if (p.y < 0) {
+        p.y = canvas.height;
+        p.x = Math.random() * canvas.width;
+      }
+    });
+    requestAnimationFrame(animateParticles);
+  }
+  animateParticles();
+
+  window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+</script>
+
+<script>
+  const items = document.querySelectorAll('.timeline-item');
+
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.85;
+
+    items.forEach((item, index) => {
+      const boxTop = item.getBoundingClientRect().top;
+
+      if (boxTop < triggerBottom) {
+        item.classList.add('show');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+
+<script>
+  const particleCanvas = document.getElementById("intro-particles");
+  const particleCtx = particleCanvas.getContext("2d");
+
+  particleCanvas.width = window.innerWidth;
+  particleCanvas.height = window.innerHeight;
+
+  let particlesArray = [];
+
+  class Particle {
+    constructor(x, y) {
+      this.x = x;
+      this.y = y;
+      this.size = Math.random() * 3 + 1;
+      this.speedX = Math.random() * 2 - 1;
+      this.speedY = Math.random() * 2 - 1;
+    }
+    update() {
+      this.x += this.speedX;
+      this.y += this.speedY;
+
+      if (this.x < 0 || this.x > particleCanvas.width) this.speedX *= -1;
+      if (this.y < 0 || this.y > particleCanvas.height) this.speedY *= -1;
+    }
+    draw() {
+      particleCtx.fillStyle = "rgba(0,255,255,0.7)";
+      particleCtx.beginPath();
+      particleCtx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      particleCtx.fill();
+    }
+  }
+
+  function init() {
+    particlesArray = [];
+    let numberOfParticles = 80;
+    for (let i = 0; i < numberOfParticles; i++) {
+      let x = Math.random() * particleCanvas.width;
+      let y = Math.random() * particleCanvas.height;
+      particlesArray.push(new Particle(x, y));
+    }
+  }
+
+  function animate() {
+    particleCtx.clearRect(0, 0, particleCanvas.width, particleCanvas.height);
+    particlesArray.forEach(p => {
+      p.update();
+      p.draw();
+    });
+    requestAnimationFrame(animate);
+  }
+
+  window.addEventListener("resize", () => {
+    particleCanvas.width = window.innerWidth;
+    particleCanvas.height = window.innerHeight;
+    init();
+  });
+
+  init();
+  animate();
+</script>
+
+
+
+
+</body>
+</html>
+
+<footer class="footer glass">
+  <p>Designed & Built by Alfred Samuel </p>
+</footer>
+
+</body>
+</html>
